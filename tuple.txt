@@ -1,0 +1,102 @@
+Python 3.8.3 (tags/v3.8.3:6f8c832, May 13 2020, 22:20:19) [MSC v.1925 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>>
+>>> nums=[12,24,25,44,56]
+>>>
+>>> nums
+[12, 24, 25, 44, 56]
+>>>
+>>> nums[0]
+12
+>>> nums[2:]
+[25, 44, 56]
+>>>
+>>>
+>>> names=['nicolas','bahindwa','greag']
+>>> names
+['nicolas', 'bahindwa', 'greag']
+>>>
+>>> values[9.5,'nicolas',25]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'values' is not defined
+>>> values=[9.5,'nicolas',25]
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>>
+>>> values
+[9.5, 'nicolas', 25]
+>>>
+>>>
+>>>
+>>> mil=[nums,names]
+>>>
+>>> mil
+[[12, 24, 25, 44, 56], ['nicolas', 'bahindwa', 'greag']]
+>>>
+>>>
+>>> num.append(23)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'num' is not defined
+>>>
+>>>
+>>> nums.append(90)
+>>>
+>>> nums
+[12, 24, 25, 44, 56, 90]
+>>>
+>>>
+>>> nums.insert(2,88)
+>>>
+>>> nums
+[12, 24, 88, 25, 44, 56, 90]
+>>>
+>>> nums.remove(14)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: list.remove(x): x not in list
+>>>
+>>> nums.remove(12)
+>>>
+>>> nums
+[24, 88, 25, 44, 56, 90]
+>>>
+>>> nums.pop(1)
+88
+>>>
+>>> nums.push(20)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'list' object has no attribute 'push'
+>>>
+>>> del nums[2:]
+>>>
+>>> nums
+[24, 25]
+>>>
+>>> nums.extend([23,45,59,12,36])
+>>>
+>>> nums
+[24, 25, 23, 45, 59, 12, 36]
+>>>
+>>>
+>>> min(nums)
+12
+>>> max(nums)
+59
+>>>
+>>> sum(nums)
+224
+>>>
+>>> nums.sort()
+>>>
+>>> nums
+[12, 23, 24, 25, 36, 45, 59]
+>>>
+>>>
